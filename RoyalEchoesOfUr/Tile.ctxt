@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Tile
+comment0.text=\r\n\ Tile\ object\ that\ makes\ up\ the\ background\ tiles\ and\ supplementary\ tiles\r\n\ on\ the\ GameBoard,\ taking\ a\ number\ in\ initialization\ to\ decide\ which\r\n\ image\ will\ be\ used.\r\n\ \r\n\ @author\ cwfloyd@email.uscb.edu\r\n\ @version\ 2.0\r\n
+comment1.params=type
+comment1.target=Tile(int)
+comment1.text=\r\n\ Constructs\ image\ and\ scale\ of\ all\ Tiles\r\n\ \r\n\ @param\ int\ type\ \ tells\ the\ Tile\ constructor\ what\ image\ it\ wants\ to\ have\r\n
+numComments=2

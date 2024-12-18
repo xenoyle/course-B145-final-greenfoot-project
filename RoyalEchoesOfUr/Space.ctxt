@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Space
+comment0.text=\r\n\ Represents\ a\ GameBoard\ space\ and\ its\ associated\ attributes\ (i.e.,\ is\ it\ a\ safe\ space\ or\ not,\ is\ it\ occupied\ \r\n\ by\ a\ given\ player's\ piece\ or\ not,\ etc.)\r\n\ \r\n\ @author\ cwfloyd@email.uscb.edu\r\n\ @version\ 2.0\r\n
+comment1.params=safeSpace
+comment1.target=Space(boolean)
+comment1.text=\r\n\ Initializes\ the\ attributes\ of\ this\ Space\ object\r\n\ \r\n\ @param\ safeSpace\ \ \ \ \ true\ if\ this\ is\ a\ safe\ space,\ false\ otherwise\r\n
+comment2.params=playerIndex
+comment2.target=boolean\ isOccupiedByPieceForPlayerIndex(int)
+comment2.text=\r\n\ This\ getter\ (accessor)\ method\ returns\ true\ if\ this\ space\ is\ occupied\ by\ a\ piece\r\n\ belonging\ to\ the\ player\ corresponding\ to\ playerIndex\r\n\ \r\n\ @param\ playerIndex\ \ \ the\ index\ of\ the\ player\ whose\ piece\ may\ be\ occupying\ this\ Space\r\n
+comment3.params=playerIndex\ occupied
+comment3.target=void\ setOccupiedByPieceForPlayerIndex(int,\ boolean)
+comment3.text=\r\n\ This\ setter\ (mutator)\ method\ updates\ the\ value\ of\ the\ current\ ("this")\ object's\ \r\n\ instance\ variable\ value\ of\ occupiedByPieceForPlayerIndex\ using\ the\ boolean\ value\ assigned\ to\ the\ \r\n\ local\ variable\ of\ the\ same\ name\r\n\ \r\n\ @param\ playerIndex\ \ \ the\ index\ of\ the\ player\ whose\ piece\ may\ be\ occupying\ this\ Space\r\n\ @param\ occupied\ \ \ \ \ \ true\ if\ this\ Space\ is\ now\ occupied\ by\ a\ piece\ belonging\ to\ the\ given\ player\r\n
+comment4.params=
+comment4.target=boolean\ isSafeSpace()
+comment4.text=\r\n\ This\ "getter"\ method\ returns\ `true`\ if\ this\ space\ is\ a\ safe\ space\r\n
+comment5.params=
+comment5.target=boolean\ isEchoSpace()
+comment5.text=\r\n\ This\ "getter"\ method\ returns\ `true`\ if\ this\ space\ is\ an\ echo\ space\r\n
+comment6.params=echoSpace
+comment6.target=void\ setEchoSpace(boolean)
+comment6.text=\r\n\ This\ "setter"\ method\ allows\ the\ caller\ to\ set\ the\ instance\ variable\ echoSpace\ to\ it's\ parameter\r\n\ \r\n\ @param\ boolean\ echoSpace\ \ \ \ \ boolean\ stating\ if\ the\ space\ contains\ an\ echo\ or\ not\r\n
+comment7.params=imageTypeID
+comment7.target=void\ toggleImageType(int)
+comment7.text=\r\n\ Allows\ for\ a\ toggle\ of\ the\ Space's\ images\ based\ on\ its\ current\ image,\ so\ that\r\n\ normal\ image\ swaps\ with\ echo\ image\ and\ echo\ image\ swaps\ with\ normal\ image.\r\n\ \r\n\ @param\ imageTypeID\ \ \ ID\ for\ whether\ assets\ use\ echo\ images\ (1)\ or\ normal\ images\ (2)\r\n
+numComments=8

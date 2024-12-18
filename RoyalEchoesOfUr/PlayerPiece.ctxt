@@ -1,0 +1,34 @@
+#BlueJ class context
+comment0.target=PlayerPiece
+comment0.text=\r\n\ Represents\ a\ player's\ game\ piece\ --\ player\ 1's\ pieces\ (for\ player\ index\ 0)\ \r\n\ are\ straight-faced,\ player\ 2's\ pieces\ (for\ player\ index\ 1)\ are\ smiling\r\n\ \r\n\ @author\ cwfloyd@email.uscb.edu\r\n\ @version\ 2.0\r\n
+comment1.params=playerIndex\ originalXcoord\ originalYcoord
+comment1.target=PlayerPiece(int,\ int,\ int)
+comment1.text=\r\n\ Initializes\ a\ newly-instantiated\ PlayerPiece\ object\r\n\ \r\n\ @param\ playerIndex\ \ \ \ \ \ \ the\ index\ of\ the\ player\ that\ "owns"\ this\ PlayerPiece\ (0\ \=\ player\ one\ pieces,\ 1\ \=\ player\ two\ pieces)\r\n\ @param\ originalXcoord\ \ \ \ the\ original\ X-coordinate\ of\ where\ this\ playerPiece\ was\ located\ for\ this\ player's\ "starting\ zone"\r\n\ @param\ originalYcoord\ \ \ \ the\ original\ Y-coordinate\ of\ where\ this\ playerPiece\ was\ located\ for\ this\ player's\ "starting\ zone"\r\n
+comment10.params=targetGameBoardLocationIndex
+comment10.target=void\ setTargetGameBoardLocationIndex(int)
+comment10.text=\r\n\ Setter\ (mutator)\ method\ for\ updating\ the\ possible\ TARGET\r\n\ game\ board\ location\ index\ based\ on\ the\ current\ die\ roll\r\n\ \r\n\ @param\ targetGameBoardLocationIndex\ \ \ \ \ The\ possible\ TARGET\ game\ board\ location\ index\ for\ this\ piece,\ given\ the\ current\ die\ roll\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ The\ `act`\ method\ for\ the\ PlayerPiece\ is\ fairly\ simple\r\n\ since\ most\ of\ the\ game\ logic\ is\ handled\ by\ the\ GameBoard\ class;\r\n\ but\ we\ will\ use\ the\ `act`\ method\ to\ set\ the\ opacity\ (transparency)\r\n\ of\ the\ object\ depending\ on\ whether\ or\ not\ the\ piece\ is\ moveable\r\n
+comment3.params=
+comment3.target=boolean\ isMoveable()
+comment3.text=\r\n\ Getter\ (accessor)\ method\ for\ retrieving\ this\ player\ piece's\ `moveable`\ state\ value\ (true\ or\ false)\r\n\ \r\n\ NOTE\:\ While\ it\ is\ a\ common\ Java\ convention\ to\ name\ "getter"\ methods\ by\ concatenating\r\n\ \ \ \ \ \ \ the\ prefix\ `get`\ with\ the\ name\ of\ the\ corresponding\ instance\ variable\ (while\ obeying\ camelCase\ rules),\ \r\n\ \ \ \ \ \ \ it\ is\ usually\ preferable\ (more\ readable)\ to\ use\ the\ prefix\ `is`\ when\ the\ \r\n\ \ \ \ \ \ \ corresponding\ instance\ variable\ is\ of\ type\ `boolean`\r\n
+comment4.params=moveable
+comment4.target=void\ setMoveable(boolean)
+comment4.text=\r\n\ Updates\ the\ moveable\ state\ of\ this\ PlayerPiece\ object\r\n\ \r\n\ @param\ moveable\ whether\ this\ object\ should\ be\ moveable\ or\ not\r\n
+comment5.params=
+comment5.target=int\ getOriginalXcoord()
+comment5.text=\r\n\ Getter\ (accessor)\ method\ for\ retrieving\ the\ original\ \r\n\ X-coordinate\ (horizontal\ coordinate)\ of\ this\ PlayerPiece\r\n
+comment6.params=
+comment6.target=int\ getOriginalYcoord()
+comment6.text=\r\n\ Getter\ (accessor)\ method\ for\ retrieving\ the\ original\ \r\n\ Y-coordinate\ (vertical\ coordinate)\ of\ this\ PlayerPiece\r\n
+comment7.params=
+comment7.target=int\ getGameBoardLocationIndex()
+comment7.text=\r\n\ Getter\ (accessor)\ method\ for\ retrieving\ the\ current\ \r\n\ gameBoardLocationIndex\ for\ this\ PlayerPiece\r\n
+comment8.params=gameBoardLocationIndex
+comment8.target=void\ setGameBoardLocationIndex(int)
+comment8.text=\r\n\ Setter\ (mutator)\ method\ for\ UPDATING\ the\ gameBoardLocationIndex\ for\ this\ PlayerPiece\r\n\ \r\n\ @param\ gameBoardLocationIndex\ \ \ \ the\ current\ gameBoardLocationIndex\ \r\n
+comment9.params=
+comment9.target=int\ getTargetGameBoardLocationIndex()
+comment9.text=\r\n\ Getter\ (accessor)\ method\ for\ retrieving\ the\ possible\r\n\ game\ board\ location\ index\ based\ on\ the\ current\ die\ roll\r\n
+numComments=11

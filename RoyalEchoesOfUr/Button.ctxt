@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Button
+comment0.text=\r\n\ Places\ an\ invisible\ button\ over\ background\ buttons\ to\ create\ interactivity\ with\ the\ screen.\r\n\ Mainly\ used\ to\ switch\ worlds.\r\n\ \r\n\ @author\ cwfloyd@email.uscb.edu\r\n\ @version\ 1.0\r\n
+comment1.params=buttonType
+comment1.target=Button(java.lang.String)
+comment1.text=\r\n\ A\ button\ that\ has\ no\ transparency\ and\ stores\ certain\ string\ types\ to\ determine\r\n\ click\ function.\r\n\ \r\n\ @param\ String\ buttonType\ \ \ \ \ A\ string\ telling\ the\ Button\ which\ dimensions\ to\ use\ and\ which\ actions\ to\ perform\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Checks\ every\ frame\ for\ mouseClicked(this),\ used\ for\ title\ screen\ and\ rules\ screen\ buttons\r\n
+numComments=3

@@ -1,0 +1,26 @@
+CODE ---
+Brian Canada - Original code structure and framework for PlayerPiece, GameBoard, Die, and Space.
+Greenfoot website forums:
+	https://www.greenfoot.org/topics/3363
+	https://www.greenfoot.org/topics/3886
+	https://www.greenfoot.org/topics/1953
+
+
+ART --- 
+All tile assets - Free sprite sheets for use by the Public @ 	https://opengameart.org/content/lots-of-free-2d-tiles-and-sprites-by-hyptosis
+Title Screen background - 					https://szadiart.itch.io/background-desert-mountains
+Button borders - 						https://bdragon1727.itch.io/custom-border-and-panels-menu-all-part
+
+SOUND ---
+Title and Rules screen music (Lost Civilization) - 	https://sirental.itch.io/ruins-pack
+GameBoard music (Battle on the Plains) -		https://aoha-music.itch.io/battle-on-the-plains
+
+EVENTS --- 
+The Great Gardens of Lagash:		https://en.wikipedia.org/wiki/Gudea
+The First Written Music: 		https://en.wikipedia.org/wiki/Music_of_Mesopotamia
+The Code of Ur-Nammu: 			https://en.wikipedia.org/wiki/Code_of_Ur-Nammu
+Advancement of Astronomical Knowledge:	https://en.wikipedia.org/wiki/Babylonian_astronomy
+The Flood of Shuruppak: 		https://en.wikipedia.org/wiki/Shuruppak
+Slave Labor in Temple Construction: 	https://en.wikipedia.org/wiki/Mesopotamia
+The Akkadian Empire's Collapse: 	https://en.wikipedia.org/wiki/Akkadian_Empire
+Devastating Drought Period:		https://en.wikipedia.org/wiki/4.2-kiloyear_event

@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Event
+comment0.text=\r\n\ Event\ maintains\ data\ given\ by\ GameBoard\ which\ is\ formatted\ and\ returned\ as\r\n\ a\ built-in\ text\ image\ using\ Greenfoot\r\n\ \r\n\ @author\ cwfloyd@email.uscb.edu\ \r\n\ @version\ 1.0\r\n
+comment1.params=title\ description\ isPositive
+comment1.target=Event(java.lang.String,\ java.lang.String,\ boolean)
+comment1.text=\r\n\ Handles\ the\ data\ for\ the\ events,\ allowing\ them\ to\ be\ displayed\ based\ on\ certain\ conditions\ in\ GameBoard\r\n\ \r\n\ @param\ String\ title\ \ \ \ \ \ \ \ \ \ title\ of\ the\ event\r\n\ @param\ String\ description\ \ \ \ description\ of\ the\ event\r\n\ @param\ boolean\ isPositive\ \ \ \ boolean\ for\ checking\ if\ the\ event\ is\ for\ positive\ or\ negative\ echo\ rolls\r\n
+numComments=2

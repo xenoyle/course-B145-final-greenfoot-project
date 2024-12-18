@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=TitleScreen
+comment0.text=\r\n\ Loads\ a\ title\ screen\ and\ uses\ button\ to\ wait\ for\ a\ click\ to\ switch\ worlds\r\n\ \r\n\ @author\ cwfloyd@email.uscb.edu\r\n\ @version\ 1.0\r\n
+comment1.params=
+comment1.target=TitleScreen()
+comment1.text=\r\n\ Constructor\ for\ the\ title\ screen\ background\r\n
+comment2.params=
+comment2.target=void\ started()
+comment3.params=
+comment3.target=void\ prepare()
+comment3.text=\r\n\ Initialize\ and\ instantiate\ buttons.\r\n
+numComments=4
